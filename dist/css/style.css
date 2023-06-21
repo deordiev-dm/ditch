@@ -1584,13 +1584,6 @@ body {
   }
 }
 
-@media (max-width: 29.6875em) {
-  .footer__icons {
-    -ms-grid-columns: (1fr)[3];
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 @media (max-width: 29.99875em) {
   .intro__name::before {
     display: none;
@@ -1609,7 +1602,7 @@ body {
   }
 }
 
-@media (max-width: 23.75em) {
+@media (max-width: 29.375em) {
   .projects__items {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
